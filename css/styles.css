@@ -73,15 +73,15 @@ border-radius: 90px 90px 0px 0px;
 }
 
 .boxTopCard-batman{
-    background-image: url(/img/bg-batman.jpg); 
+    background-image: url(../img/bg-batman.jpg); 
 }
 
 .boxTopCard-wonderw{
-    background-image: url(/img/bg-wonderw.jpg);
+    background-image: url(../img/bg-wonderw.jpg);
 }
 
 .boxTopCard-superm{
-    background-image: url(/img/bg-superman.jpg);
+    background-image: url(../img/bg-superman.jpg);
 }
 
 
@@ -117,8 +117,6 @@ bottom: 150px;
 width: 300px;
 height: 300px; 
 border-radius: 200px;
-background-color: red;
-
 background-position-x: center;
 background-size: 800px;
 background-repeat: no-repeat;
@@ -128,15 +126,15 @@ box-shadow: 0px 10px 10px -8px rgb(100, 92, 92);
 
 
 .avatar-wonderw-bg{
-    background-image: url(/img/wonderw.jpg);
+    background-image: url(../img/wonderw.jpg);
 }
 
 .avatar-batman-bg{
-    background-image: url(/img/batman.jpg);
+    background-image: url(../img/batman.jpg);
 }
 
 .avatar-superm-bg{
-    background-image: url(/img/superman.jpg);
+    background-image: url(../img/superman.jpg);
 }
 
 
