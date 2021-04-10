@@ -1,0 +1,257 @@
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+        font-family: Roboto, sans-serif;
+        box-sizing: border-box;
+}
+
+header{
+position: fixed;
+width: 2056px;
+z-index: 1;
+}
+
+
+body{
+position: relative;
+width: 2056px;
+left: 0px;
+top: 0px;
+margin: 0px;;
+background: #FFFFFF;
+
+}
+
+.box-header-top{
+background-color: rgba(28, 209, 176, 1);
+}
+
+.titulo-secundario{
+    position: relative;
+    left: 67px;
+    margin: 0px;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.box-header-bottom{
+background-color: rgba(0, 102, 159, 1);
+height: 161px;
+margin-bottom: 50px;
+box-shadow: 0px 10px 10px -8px rgb(100, 92, 92);
+}
+
+.titulo-princpal{
+    position: relative;
+    left: 67px;
+    top: 39px;
+    margin: 0px;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 84px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:white;
+}
+
+.boxTopCard{
+height: 492.5px;
+width: 872px;
+left: 148px;
+top: 269px; 
+background-size: cover;
+border-radius: 90px 90px 0px 0px;
+}
+
+.boxTopCard-batman{
+    background-image: url(/img/bg-batman.jpg); 
+}
+
+.boxTopCard-wonderw{
+    background-image: url(/img/bg-wonderw.jpg);
+}
+
+.boxTopCard-superm{
+    background-image: url(/img/bg-superman.jpg);
+}
+
+
+.fa-heart{
+/* Vector */
+position: relative;
+top: 65px;
+left: 70px;
+font-size: 40px;
+position: relative;
+color:rgba(204, 36, 36, 1);
+}
+
+.img-batman{
+border-radius: 50%;
+}
+
+.card{
+    position: relative;
+    top: 300px;
+   margin-bottom: 170px;
+    border-radius: 90px 90px 0px 0px;
+    margin-left: 626px;
+    background: rgba(243, 243, 243, 1);
+    width: 872px;
+    
+}
+
+.avatar{
+position: relative;
+left: 275px;
+bottom: 150px;
+width: 300px;
+height: 300px; 
+border-radius: 200px;
+background-color: red;
+
+background-position-x: center;
+background-size: 800px;
+background-repeat: no-repeat;
+box-shadow: 0px 10px 10px -8px rgb(100, 92, 92);
+      }
+
+
+
+.avatar-wonderw-bg{
+    background-image: url(/img/wonderw.jpg);
+}
+
+.avatar-batman-bg{
+    background-image: url(/img/batman.jpg);
+}
+
+.avatar-superm-bg{
+    background-image: url(/img/superman.jpg);
+}
+
+
+.hero-name{
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 0px;
+    text-transform: uppercase;
+    }
+
+.hero-description{
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 44px;
+padding-right: 44px;
+
+}
+
+.box-bottom-card{
+    width: 872px;
+}
+
+.box-avatar
+{
+width: 872px;
+height: 230px;
+margin: 0px;
+background: rgba(243, 243, 243, 1);
+}
+
+
+
+.main-box-bottom-card{
+    background: rgba(243, 243, 243, 1);
+    width: 872px;
+}
+
+.box-button{
+    margin-left: 250px;
+}
+
+
+button{
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+background: rgba(0, 102, 159, 1);
+height: 114px;
+width: 346px;
+border-radius: 7px;
+margin-bottom: 68px;
+}
+
+
+.circulo{
+position: absolute;
+right: 100px;
+top: 1700px;
+width: 150px;
+height: 150px; 
+border-radius: 200px;
+background-color: rgba(0, 102, 159, 1);
+        }
+
+.add-sign{
+    position: relative;
+    top: 11px;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 113px;
+    letter-spacing: 0em;
+    text-align: center; 
+    margin: 0px;;
+    padding: 0px;
+    color: white;
+    
+}        
+
+.final{
+    position: relative;
+    background: rgba(0, 102, 159, 1);
+    height: 162px;
+    margin-top: 650px;
+}
+
+.copyright{
+    color: rgba(255, 249, 249, 1);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 60px;
+    }
+
+.logo-github{
+position: absolute;
+top:40px;
+left: 1750px;
+height: 67px;
+width: 248px;
+border-radius: 0px;
+
+}
