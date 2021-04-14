@@ -27,12 +27,12 @@ background-color: rgba(28, 209, 176, 1);
 }
 
 .titulo-secundario{
-    margin: 0px 67px;
+    margin: 0px 33px;
     font-family: Roboto;
-    font-size: 48px;
+    font-size: 24px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 56px;
+    font-weight: 200;
+    line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
     
@@ -44,20 +44,20 @@ box-shadow: 0px 10px 10px -8px rgb(100, 92, 92);
 }
 
 .titulo-princpal{
-    padding: 39px 67px;
+    padding: 20px 33px;
     margin: 0px;
-    font-size: 72px;
+    font-size: 36px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 84px;
+    font-weight: 200;
+    line-height: 42px;
     letter-spacing: 0em;
     text-align: left;
     color:white;
 }
 
 .boxTopCard{
-margin-top: 300px;
-    height: 492.5px;
+margin-top: 150px;
+    height: 246px;
     background-size: cover;
     border-radius: 90px 90px 0px 0px;
 }
@@ -77,17 +77,17 @@ margin-top: 300px;
 
 .fa-heart{
 position: relative;
-top: 65px;
-right: 270px;
-font-size: 58px;
+top: 33px;
+right: 135px;
+font-size: 29px;
 color:rgba(204, 36, 36, 1);
 }
 
 .card{
 position: relative;
-width: 805px;
+width: 402.5px ;
 margin: 0 auto;    
-margin-bottom: 170px;
+margin-bottom: 85px;
 border-radius: 90px 90px 0px 0px;
 background: rgba(243, 243, 243, 1);
 text-align: center;
@@ -95,36 +95,36 @@ text-align: center;
 
 .avatar{
 position: absolute;
-top: 320px;
-right: 230px;
-width: 352px;
-height: 352px;
+top: 160px;
+right: 115px;
+width: 176px;
+height: 176px;
 border-radius: 180px;
 box-shadow: 0px 10px 10px -8px rgb(100, 92, 92);
 object-fit: cover;    
 }
 
 .hero-name{
-font-size: 64px;
+font-size: 32px;
 font-style: normal;
-font-weight: 400;
-line-height: 75px;
+font-weight: 200;
+line-height: 37px;
 letter-spacing: 0em;
 text-align: center;
-padding-top: 220px;
+padding-top: 110px;
 margin-top: 0px;
 text-transform: uppercase;
 }
 
 .hero-description{
-font-size: 36px;
+font-size: 18px;
 font-style: normal;
-font-weight: 400;
-line-height: 42px;
+font-weight: 200;
+line-height: 21px;
 letter-spacing: 0em;
 text-align: left;
-padding-left: 44px;
-padding-right: 44px;
+padding-left: 22px;
+padding-right: 22px;
 
 }
 
@@ -138,66 +138,66 @@ text-align: center;
 
 
 button{
-font-size: 36px;
+font-size: 16px;
 font-style: normal;
-font-weight: 400;
-line-height: 42px;
+font-weight: 200;
+line-height: 21px;
 letter-spacing: 0em;
 text-align: center;
 color: white;
 background: rgba(0, 102, 159, 1);
-height: 114px;
-width: 346px;
+height: 57px;
+width: 173px;
 border-radius: 7px;
-margin-bottom: 68px;
+margin-bottom: 34px;
 }
 
 
 .circulo{
 position: fixed;
-right: 5%;
-top: 50%;
-width: 150px;
-height: 150px; 
+right: 25%;
+top: 70%;
+width: 75px;
+height: 75px; 
 border-radius: 200px;
 background-color: rgba(0, 102, 159, 1);
         }
 
 .add-sign{
-font-size: 96px;
+font-size: 48px;
 font-style: normal;
-font-weight: 400;
-line-height: 113px;
+font-weight: 200;
+line-height: 57px;
 letter-spacing: 0em;
 text-align: center; 
-margin: 18px;
+margin: 9px;
 color: white;    
 }        
 
 .final{
 background: rgba(0, 102, 159, 1);
-height: 162px;
-margin-top: 330px;
+margin-top: 165px;
 margin-bottom: 0px;
 padding: 0px;
 }
 
 .copyright{
 color: rgba(255, 249, 249, 1);
-font-size: 36px;
+font-size: 18px;
 font-style: normal;
-font-weight: 400;
-line-height: 42px;
+font-weight: 200;
+line-height: 21px;
 letter-spacing: 0em;
 text-align: center;
 margin: 0px;
+padding-bottom: 25px;
 }
 
 .logo-github{
 position: relative;
 left: 80%;
-top: 30%;
-height: 67px;
-width: 248px;
+top: 25px;
+height: 33px;
+width: 124px;
 border-radius: 0px;
 }
