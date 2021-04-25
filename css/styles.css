@@ -1,6 +1,23 @@
+@import url(variables.css);
+
+
 @import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
 @import url('https://use.fontawesome.com/releases/v5.15.3/css/v4-shims.css');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+@import url(styles-contacto.css);
+@import url(styles-login.css);
+@import url(styles-register.css);
+@import url(styles-anadir.css);
+
+
+/* ======================
+- css for all views
+====================== */
+
 
 * {
         font-family: Roboto, sans-serif;
@@ -10,20 +27,19 @@
 
 body{
     margin: 0px;
+    margin-top: 25vh;
     }
-
 
 header{ 
 position: fixed;
 top: 0%;
 left: 0%;
 right: 0%;
-
 z-index: 1;
 }
 
 .box-header-top{
-background-color: rgba(28, 209, 176, 1);
+background-color: var(--color-verde);
 }
 
 .titulo-secundario{
@@ -44,7 +60,7 @@ box-shadow: 0px 10px 10px -8px rgb(100, 92, 92);
 }
 
 .titulo-princpal{
-    padding: 20px 33px;
+    padding: 15px 33px;
     margin: 0px;
     font-size: 36px;
     font-style: normal;
@@ -55,9 +71,35 @@ box-shadow: 0px 10px 10px -8px rgb(100, 92, 92);
     color:white;
 }
 
+nav ul{
+    background-color: black;
+    padding: 9px;
+    display: flex;
+    justify-content:flex-end;
+    list-style-type: none;
+    align-items:flex-end;
+    margin: 0px;
+}
+
+nav ul li{
+    margin-right: 14px;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .boxTopCard{
-margin-top: 150px;
-    height: 246px;
+    padding: 0px;
+    height: 245px;
     background-size: cover;
     border-radius: 90px 90px 0px 0px;
 }
@@ -74,6 +116,9 @@ margin-top: 150px;
     background-image: url(../img/bg-superman.jpg);
 }
 
+.boxTopCard-harley{
+    background-image: url(../img/bg-HarleyQuinn.svg);
+}
 
 .fa-heart{
 position: relative;
@@ -84,21 +129,19 @@ color:rgba(204, 36, 36, 1);
 }
 
 .card{
-position: relative;
-width: 402.5px ;
-margin: 0 auto;    
-margin-bottom: 85px;
+width: 400px;   
+min-height: 700px;
+margin-bottom: 10vh;
 border-radius: 90px 90px 0px 0px;
 background: rgba(243, 243, 243, 1);
 text-align: center;
 }
 
-.avatar{
-position: absolute;
-top: 160px;
-right: 115px;
-width: 176px;
-height: 176px;
+.avatar{    
+position: relative;
+top: -70px;
+width: 160px;
+height: 160px;
 border-radius: 180px;
 box-shadow: 0px 10px 10px -8px rgb(100, 92, 92);
 object-fit: cover;    
@@ -111,9 +154,8 @@ font-weight: 200;
 line-height: 37px;
 letter-spacing: 0em;
 text-align: center;
-padding-top: 110px;
-margin-top: 0px;
 text-transform: uppercase;
+margin-top: -50px;
 }
 
 .hero-description{
@@ -149,19 +191,23 @@ background: rgba(0, 102, 159, 1);
 height: 57px;
 width: 173px;
 border-radius: 7px;
-margin-bottom: 34px;
+margin-bottom: 30px;
 }
 
 
 .circulo{
 position: fixed;
-right: 25%;
-top: 70%;
+right: 2%;
+top: 79%;
 width: 75px;
 height: 75px; 
 border-radius: 200px;
 background-color: rgba(0, 102, 159, 1);
         }
+
+.circulo:hover{
+    background-color: black
+}
 
 .add-sign{
 font-size: 48px;
@@ -175,29 +221,39 @@ color: white;
 }        
 
 .final{
+left: 0%;
+right: 0%;
 background: rgba(0, 102, 159, 1);
 margin-top: 165px;
-margin-bottom: 0px;
 padding: 0px;
 }
 
 .copyright{
 color: rgba(255, 249, 249, 1);
-font-size: 18px;
+font-size: 15px;
 font-style: normal;
 font-weight: 200;
 line-height: 21px;
 letter-spacing: 0em;
 text-align: center;
 margin: 0px;
-padding-bottom: 25px;
+padding: 18px;
 }
 
-.logo-github{
-position: relative;
-left: 80%;
-top: 25px;
-height: 33px;
-width: 124px;
-border-radius: 0px;
+.titulo-formulario{
+font-family: 'Inter', sans-serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 350;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: center;
+color:rgba(51, 51, 51, 1);
+}
+
+
+.prueba{
+	width: 50px;
+	height: 50px;
+	background-color: orange;
 }

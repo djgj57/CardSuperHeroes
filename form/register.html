@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register_CardSuperHeroes</title>
+</head>
+
+<body class="register">
+    <header>
+        <div class="box-header-top">
+            <h3 class="titulo-secundario">Descuentos 20%</h3>
+        </div>
+
+        <div class="box-header-bottom">
+            <h1 class="titulo-princpal">Card Super Heroes</h1>
+        </div>
+    </header>
+
+    <div class="flex-container">
+        <main>
+            <h2>Registro</h2>
+            <form action="/register.html" method='POST'>
+
+                <input type="text" name="nombre_apellido" placeholder="Nombre y apellido">
+                <input type="email" name='usuario' placeholder='Correo Electrónico' />
+                <input type="password" name='password' placeholder='Contraseña' />
+                <select name="pais" id="">
+                    <optgroup label="">
+                        <option value="" hidden disabled selected>País</option>
+                        <option value="AR">Argentina</option>
+                        <option value="CO">Colombia</option>
+                        <option value="BR">Brasil</option>
+                    </optgroup>
+                </select>
+
+                <input type="reset" value="Resetear" class="button-login"></input>
+                <input type="submit" value="Entrar" class="button-login"></input>
+            </form>
+            <p class='link'>¿Ya tenés una cuenta?<a href="login.html"> Ingresá</a></p>
+        </main>
+    </div>
+
+
+    <div class="final">
+        <footer>
+            <p class="copyright">Todos los derechos reservados a FRONT END 1</p>
+        </footer>
+    </div>
+</body>
+
+</html>

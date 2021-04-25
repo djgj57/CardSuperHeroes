@@ -1,0 +1,58 @@
+/* ======================
+- css for contacto
+====================== */
+
+.contacto body{
+	padding: 0px;
+}
+
+.contacto .flex-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}	
+
+.contacto main{
+font-family: 'Inter', sans-serif;
+margin-bottom: 11vh;
+}
+
+.contacto textarea, input{
+	display: block;
+	padding: 8px;
+	width: 300px;
+    margin-bottom: 15px;
+	font-family: 'Karla', sans-serif;
+	color: black;
+}
+
+.contacto .button-login{
+    display: inline;
+	font-family: 'Karla', sans-serif;
+	font-weight: 100;
+	background: rgba(28, 209, 176, 1);
+	height: 25px;
+	width: 146px;
+	border: 0px;
+	color: #000;
+	font-size: 17;
+	font-weight: 600;
+	border-radius: 6px;
+	padding: 5px;
+    margin-right: 8px;
+}
+
+.contacto .button-login[type=reset]{color: white;
+	;
+	background: #888888;}
+
+.contacto .link{
+	font-size: 10px;
+	color: #00669F;
+	text-align: center;
+}
+
+.contacto p a{
+    text-decoration: none;
+}
+

@@ -1,0 +1,121 @@
+/* ======================
+- css for anadir
+====================== */
+
+.anadir main{
+    background: rgba(0, 102, 159, 1);
+    width: 700px;
+    margin: auto;
+    border-radius: 22px;
+}
+
+.anadir .columns{
+    display: flex;
+ 
+}
+
+.anadir form{
+    height: 500px;
+}
+
+.anadir .column1{
+    height: 400px;
+    width: 300px;
+    margin: auto 10px auto auto;
+}
+
+.anadir .column2{
+    height: 400px;
+    width: 300px;
+    margin: auto auto auto 10px;
+}
+
+.anadir h1{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+.anadir p{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding-top: 10px;
+    padding: 0px 0px 10px 0px;
+    margin: 0px; 
+}
+
+.anadir label{
+font-family: 'Karla', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+}
+
+.anadir textarea, .column1 input{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 99%;
+
+}
+
+.anadir select{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 99%;
+    height: 33px;
+    margin-bottom: 15px;
+}
+
+.anadir h4{
+font-family: 'Karla', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+margin-top: 15px;
+margin-bottom: 4px;;
+}
+
+.anadir input[type="file"]{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    width: 99%;
+}
+
+.anadir input[type="checkbox"],[type="radio"]{
+    display: inline;
+    margin: 5px;
+    padding: 0px;
+    padding-bottom: 15px;
+    width: 5%;
+    
+}
+
+.anadir input[type="submit"]{
+    margin: 15px auto;
+    padding: 7px;
+    width: 190px;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(28, 209, 176, 1);
+    ;
+
+}

@@ -1,0 +1,57 @@
+/* ======================
+- css for register
+====================== */
+
+.register body{
+	padding: 0px;
+}
+
+.register .flex-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}	
+
+.register main{
+font-family: 'Inter', sans-serif;
+margin-bottom: 11vh;
+}
+
+.register select, input{
+	display: block;
+	padding: 8px;
+	width: 300px;
+    margin-bottom: 15px;
+	font-family: 'Karla', sans-serif;
+	color: black;
+}
+
+.register .button-login{
+	font-family: 'Karla', sans-serif;
+	font-weight: 100;
+    display: inline;
+	background: rgba(28, 209, 176, 1);
+	height: 25px;
+	width: 146px;
+	border: 0px;
+	color: #000;
+	font-size: 17;
+	font-weight: 600;
+	border-radius: 6px;
+	padding: 5px;
+    margin-right: 8px;
+}
+
+.register .button-login[type=reset]{
+	color: white;
+	background: #888888}
+
+.register .link{
+	font-size: 10px;
+	color: #00669F;
+	text-align: center;
+}
+
+.register p a{
+    text-decoration: none;
+}

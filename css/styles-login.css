@@ -1,0 +1,53 @@
+/* ======================
+- css for login
+====================== */
+
+.login body{
+	padding: 0px;
+}
+
+.login .flex-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}	
+
+.login main{
+font-family: 'Inter', sans-serif;
+margin-bottom: 11vh;
+}
+
+.login input{
+	display: block;
+	padding: 8px;
+	width: 300px;
+    margin-bottom: 15px;
+	font-family: 'Karla', sans-serif;
+	color: black;
+}
+
+.login .button-login{
+	font-family: 'Karla', sans-serif;
+	font-weight: 100;
+	background: rgba(28, 209, 176, 1);
+	height: 25px;
+	width: 300px;
+	border: 0px;
+	color: #000;
+	font-size: 17;
+	font-weight: 600;
+	border-radius: 6px;
+	padding: 5px;
+	margin: 0px;
+}
+
+.login .link{
+	font-size: 10px;
+	color: #00669F;
+	text-align: center;
+}
+
+.login p a{
+    text-decoration: none;
+}
+

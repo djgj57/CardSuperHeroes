@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir CardSuperHeroes</title>
+</head>
+
+<body class="anadir">
+
+
+
+    <main>
+        <h1>Añadí tu super!</h1>
+        <p>Agregá tu personaje favorito completando las opciones.</p>
+        <form action="">
+            <div class="columns">
+                <div class="column1">
+                    <label for="nombre">*Nombre</label>
+                    <input type="text" name="" id="nombre" required>
+                    <label for="fecha">Fecha</label>
+                    <input type="date" name="fecha" id="fecha">
+                    <textarea name="descripcion" id="" cols="30" rows="13" placeholder="Descripción"></textarea>
+
+                </div>
+                <div class="column2">
+                    <div> <label for="Especie">*Especie</label></div>
+
+                    <select name="especie" id="especie" required>
+                        <option value="" hidden disabled="" selected="">Especie</option>
+                        <option value="Unknown">Unknown</option>
+                        <option value="Terrestre">Terrestre</option>
+                        <option value="Extraterrestre">Extraterrestre</option>
+                    </select>
+
+
+                    <label for="foto">Agregar Foto</label>
+                    <input type="file" name="foto" id="foto">
+
+                    <h4>Poderes</h4>
+
+                    <input type="checkbox" id="poder1" name="poder1" value="Volar">
+                    <label for="poder1">Volar</label> <br>
+
+                    <input type="checkbox" id="poder2" name="poder2" value="SuperInteligencia">
+                    <label for="poder2">SuperInteligencia</label> <br>
+
+                    <input type="checkbox" id="poder3" name="poder3" value="Vista_de_rayo_laser">
+                    <label for="poder3">Vista de rayo láser</label> <br>
+
+                    <input type="checkbox" id="poder4" name="poder4" value="Billetera_gorda">
+                    <label for="poder4">Billetera gorda</label>
+
+                    <hr>
+
+                    <h4>Tipo de personaje</h4>
+                    <input type="radio" id="Tipo" name="Tipo" value="H">
+                    <label for="poder3">Héroe / Heroina</label><br>
+                    <input type="radio" id="Tipo" name="Tipo" value="V">
+                    <label for="poder4">Villano / Villana</label>
+
+                </div>
+            </div>
+            <input type="submit" value="Añadir">
+        </form>
+
+
+    </main>
+
+
+    <header>
+        <div class="box-header-top">
+            <h3 class="titulo-secundario">Descuentos 20%</h3>
+        </div>
+
+        <div class="box-header-bottom">
+            <h1 class="titulo-princpal">Card Super Heroes</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./form/contacto.html">Contacto</a></li>
+                <li><a href="./form/register.html">Registrarme</a></li>
+                <li><a href="./form/login.html">Ingresar</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+
+
+    </main>
+
+
+
+
+
+    <div class="final">
+        <footer>
+            <p class="copyright">Todos los derechos reservados a FRONT END 1</p>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
